@@ -1,2 +1,1 @@
-# TinDog
-Learning some html/css and bootstrap
+TinDog Starting Files
