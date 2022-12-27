@@ -32,6 +32,7 @@ h3 {
 
 .container-fluid {
     padding: 3% 15%;
+    padding-bottom: 7%;
 }
 
 /* Navigation Bar */
@@ -68,14 +69,18 @@ h3 {
 /* Title Image */
 
 .title-img {
-    width: 60%;
+    max-width: 60%;
     transform: rotate(15deg);
+    position: absolute;
+    right: 25%
 }
 
 /* Feature boxes */
 
 #features {
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
 
 .feature-box {
@@ -125,4 +130,55 @@ p {
 .press-logo {
     width: 15%;
     margin: 20pz 20px 50px 20px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-column {
+    text-align: center;
+    padding: 3% 2%;
+}
+
+/* CTA section */
+
+#cta {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.cta-head {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin: 0 0 1rem 0;
+}
+
+/* Footer */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    color: #ff4c68;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+@media (max-width: 1300px) {
+    .title-img {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title {
+        text-align: center;
+    }
 }
